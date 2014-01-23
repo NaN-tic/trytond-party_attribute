@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!-- This file is part of the party_attribute module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="attribute_set_view_list">
+            <field name="model">party.attribute.set</field>
+            <field name="type">tree</field>
+            <field name="name">attribute_set_list</field>
+        </record>
+        <record model="ir.ui.view" id="attribute_set_view_form">
+            <field name="model">party.attribute.set</field>
+            <field name="type">form</field>
+            <field name="name">attribute_set_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_attribute_set">
+            <field name="name">Attribute Sets</field>
+            <field name="res_model">party.attribute.set</field>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_attribute_set_list_view">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="attribute_set_view_list"/>
+            <field name="act_window" ref="act_attribute_set"/>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_attribute_set_form_view">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="attribute_set_view_form"/>
+            <field name="act_window" ref="act_attribute_set"/>
+        </record>
+        <menuitem name="Attribute Sets" parent="party.menu_configuration"
+            sequence="30" id="menu_attribute_set"
+            action="act_attribute_set"/>
+
+        <record model="ir.model.access" id="access_attribute_set">
+            <field name="model" search="[('model', '=', 'party.attribute.set')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_attribute_set_admin">
+            <field name="model" search="[('model', '=', 'party.attribute.set')]"/>
+            <field name="group" ref="party.group_party_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.ui.view" id="attribute_view_list">
+            <field name="model">party.attribute</field>
+            <field name="type">tree</field>
+            <field name="name">attribute_list</field>
+        </record>
+        <record model="ir.ui.view" id="attribute_view_form">
+            <field name="model">party.attribute</field>
+            <field name="type">form</field>
+            <field name="name">attribute_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_attribute">
+            <field name="name">Attributes</field>
+            <field name="res_model">party.attribute</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_attribute_list_view">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="attribute_view_list"/>
+            <field name="act_window" ref="act_attribute"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_attribute_form_view">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="attribute_view_form"/>
+            <field name="act_window" ref="act_attribute"/>
+        </record>
+        <menuitem name="Attributes" parent="menu_attribute_set"
+            sequence="10" id="menu_attribute"
+            action="act_attribute"/>
+
+        <record model="ir.model.access" id="access_attribute">
+            <field name="model" search="[('model', '=', 'party.attribute')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_attribute_admin">
+            <field name="model" search="[('model', '=', 'party.attribute')]"/>
+            <field name="group" ref="party.group_party_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.ui.view" id="party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">party_form</field>
+        </record>
+    </data>
+</tryton>

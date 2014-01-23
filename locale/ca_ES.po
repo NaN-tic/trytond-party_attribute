@@ -1,0 +1,211 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.attribute,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:party.attribute,create_uid:"
+msgid "Create User"
+msgstr "Usuari creació"
+
+msgctxt "field:party.attribute,digits:"
+msgid "Digits"
+msgstr "Dígits"
+
+msgctxt "field:party.attribute,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.attribute,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:party.attribute,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:party.attribute,selection:"
+msgid "Selection"
+msgstr "Selecció"
+
+msgctxt "field:party.attribute,selection_json:"
+msgid "Selection JSON"
+msgstr "Selecció JSON"
+
+msgctxt "field:party.attribute,sets:"
+msgid "Sets"
+msgstr "Grups"
+
+msgctxt "field:party.attribute,string:"
+msgid "String"
+msgstr "Etiqueta"
+
+msgctxt "field:party.attribute,type_:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "field:party.attribute,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:party.attribute,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:party.attribute-party.attribute-set,attribute:"
+msgid "Attribute"
+msgstr "Atribut"
+
+msgctxt "field:party.attribute-party.attribute-set,attribute_set:"
+msgid "Set"
+msgstr "Grup"
+
+msgctxt "field:party.attribute-party.attribute-set,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:party.attribute-party.attribute-set,create_uid:"
+msgid "Create User"
+msgstr "Usuari creació"
+
+msgctxt "field:party.attribute-party.attribute-set,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.attribute-party.attribute-set,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:party.attribute-party.attribute-set,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:party.attribute-party.attribute-set,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:party.attribute.set,attributes:"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "field:party.attribute.set,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:party.attribute.set,create_uid:"
+msgid "Create User"
+msgstr "Usuari creació"
+
+msgctxt "field:party.attribute.set,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:party.attribute.set,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:party.attribute.set,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:party.attribute.set,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:party.attribute.set,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:party.party,attribute_set:"
+msgid "Set"
+msgstr "Grup"
+
+msgctxt "field:party.party,attributes:"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "help:party.attribute,selection:"
+msgid "A couple of key and label separated by \":\" per line"
+msgstr "A cada línia hi ha la clau i valor separats per \":\""
+
+msgctxt "model:ir.action,name:act_attribute"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "model:ir.action,name:act_attribute_set"
+msgid "Attribute Sets"
+msgstr "Grups d'atributs"
+
+msgctxt "model:ir.ui.menu,name:menu_attribute"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "model:ir.ui.menu,name:menu_attribute_set"
+msgid "Attribute Sets"
+msgstr "Grups d'atributs"
+
+msgctxt "model:party.attribute,name:"
+msgid "Party Attribute"
+msgstr "Atributs de tercer"
+
+msgctxt "model:party.attribute-party.attribute-set,name:"
+msgid "Party Attribute - Set"
+msgstr "Atribut de tercer - Grup"
+
+msgctxt "model:party.attribute.set,name:"
+msgid "Party Attribute Set"
+msgstr "Grup atribut de tercer"
+
+msgctxt "selection:party.attribute,type_:"
+msgid "Boolean"
+msgstr "Booleà"
+
+msgctxt "selection:party.attribute,type_:"
+msgid "Char"
+msgstr "Text"
+
+msgctxt "selection:party.attribute,type_:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "selection:party.attribute,type_:"
+msgid "DateTime"
+msgstr "Data/Hora"
+
+msgctxt "selection:party.attribute,type_:"
+msgid "Float"
+msgstr "Número coma flotant"
+
+msgctxt "selection:party.attribute,type_:"
+msgid "Integer"
+msgstr "Enter"
+
+msgctxt "selection:party.attribute,type_:"
+msgid "Numeric"
+msgstr "Numèric"
+
+msgctxt "selection:party.attribute,type_:"
+msgid "Selection"
+msgstr "Selecció"
+
+msgctxt "view:party.attribute.set:"
+msgid "Attribute Set"
+msgstr "Grup d'atributs"
+
+msgctxt "view:party.attribute.set:"
+msgid "Attribute Sets"
+msgstr "Grups d'atributs"
+
+msgctxt "view:party.attribute:"
+msgid "Attribute"
+msgstr "Atribut"
+
+msgctxt "view:party.attribute:"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "view:party.party:"
+msgid "Attributes"
+msgstr "Atributs"

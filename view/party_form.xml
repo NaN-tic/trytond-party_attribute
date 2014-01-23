@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of the party_attribute module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='accounting']"
+        position="after">
+        <page string="Attributes" id="attributes">
+            <label name="attribute_set"/>
+            <field name="attribute_set"/>
+            <field name="attributes" colspan="4"/>
+        </page>
+    </xpath>
+</data>
