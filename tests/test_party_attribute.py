@@ -27,7 +27,7 @@ class PartyAttributeCase(unittest.TestCase):
         '''
         Test views.
         '''
-        test_view('party')
+        test_view('party_attribute')
 
     def test0006depends(self):
         '''
