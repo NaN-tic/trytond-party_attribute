@@ -2,37 +2,23 @@
 # This file is part of the party_attribute module for Tryton.
 # The COPYRIGHT file at the top level of this repository contains the full
 # copyright notices and license terms.
-
-import sys
-import os
-DIR = os.path.abspath(os.path.normpath(os.path.join(__file__,
-    '..', '..', '..', '..', '..', 'trytond')))
-if os.path.isdir(DIR):
-    sys.path.insert(0, os.path.dirname(DIR))
-
 import unittest
 import trytond.tests.test_tryton
 from trytond.tests.test_tryton import test_view, test_depends
 
 
 class PartyAttributeCase(unittest.TestCase):
-    '''
-    Test Party Attribute module.
-    '''
+    'Test Party Attribute module'
 
     def setUp(self):
         trytond.tests.test_tryton.install_module('party_attribute')
 
     def test0005views(self):
-        '''
-        Test views.
-        '''
+        'Test views'
         test_view('party_attribute')
 
     def test0006depends(self):
-        '''
-        Test depends.
-        '''
+        'Test depends'
         test_depends()
 
 
