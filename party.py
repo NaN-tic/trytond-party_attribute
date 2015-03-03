@@ -40,9 +40,9 @@ class Party:
     attribute_set = fields.Many2One('party.attribute.set', 'Set')
     attributes = fields.Dict('party.attribute', 'Attributes',
         domain=[
-            ('sets', '=', Eval('attribute_set', {})),
+            ('sets', '=', Eval('attribute_set', -1)),
             ],
         states={
-            'readonly': ~Eval('attribute_set', {}),
+            'readonly': ~Eval('attribute_set'),
             },
         depends=['attribute_set'])
