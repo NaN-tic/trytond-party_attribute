@@ -34,6 +34,10 @@ msgctxt "field:party.attribute,selection_json:"
 msgid "Selection JSON"
 msgstr "Selección JSON"
 
+msgctxt "field:party.attribute,selection_sorted:"
+msgid "Selection Sorted"
+msgstr "Selección ordenada"
+
 msgctxt "field:party.attribute,sets:"
 msgid "Sets"
 msgstr "Grupos"
@@ -129,6 +133,10 @@ msgstr "Atributos"
 msgctxt "help:party.attribute,selection:"
 msgid "A couple of key and label separated by \":\" per line"
 msgstr "Clave y valor separados por \":\" en cada línea."
+
+msgctxt "help:party.attribute,selection_sorted:"
+msgid "If the selection must be sorted on label"
+msgstr "Si la selección debe ser ordenada por etiqueta"
 
 msgctxt "model:ir.action,name:act_attribute"
 msgid "Attributes"
