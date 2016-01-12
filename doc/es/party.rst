@@ -3,7 +3,7 @@
 Atributos del tercero
 =====================
 
-#:inside:party/party:toctree:atributos#
+.. inheritref:: party/party:toctree:atributos
 
 .. toctree::
    :maxdepth: 2
