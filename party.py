@@ -6,7 +6,7 @@ from trytond.model import ModelSQL, ModelView, DictSchemaMixin, fields
 from trytond.pool import PoolMeta
 from trytond.pyson import Eval
 
-__metaclass__ = PoolMeta
+
 __all__ = ['PartyAttributeSet', 'PartyAttribute',
     'PartyAttributeAttributeSet', 'Party']
 
@@ -36,6 +36,7 @@ class PartyAttributeAttributeSet(ModelSQL):
 
 
 class Party:
+    __metaclass__ = PoolMeta
     __name__ = 'party.party'
     attribute_set = fields.Many2One('party.attribute.set', 'Set')
     attributes = fields.Dict('party.attribute', 'Attributes',
