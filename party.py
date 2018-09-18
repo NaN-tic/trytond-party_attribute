@@ -35,8 +35,7 @@ class PartyAttributeAttributeSet(ModelSQL):
         ondelete='CASCADE', select=True, required=True)
 
 
-class Party:
-    __metaclass__ = PoolMeta
+class Party(metaclass=PoolMeta):
     __name__ = 'party.party'
     attribute_set = fields.Many2One('party.attribute.set', 'Set')
     attributes = fields.Dict('party.attribute', 'Attributes',
